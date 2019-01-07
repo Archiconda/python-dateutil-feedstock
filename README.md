@@ -1,6 +1,8 @@
 About python-dateutil
 =====================
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://dateutil.readthedocs.org/
 
 Package license: BSD 3 Clause
@@ -16,8 +18,10 @@ module, available in Python.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/python-dateutil-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/python-dateutil-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/python-dateutil-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/python-dateutil-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/python-dateutil-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/python-dateutil-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/python-dateutil-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/python-dateutil-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c32d1a9d1578b0700305bb7/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/python-dateutil-feedstock)
 
 Current release info
 ====================
@@ -105,3 +109,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@msarahan](https://github.com/msarahan/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+* [@pganssle](https://github.com/pganssle/)
+
